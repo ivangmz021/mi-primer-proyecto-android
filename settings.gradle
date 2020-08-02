@@ -1,2 +1,0 @@
-include ':app'
-rootProject.name = "mi_proyecto_android"
