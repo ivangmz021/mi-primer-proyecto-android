@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fonfo"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="267dp"
+        android:layout_height="66dp"
+        android:text="@string/Text_app"
+        android:textColor="@color/colorText"
+        android:textIsSelectable="false"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.618" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="152dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="392dp"
+        android:background="?android:attr/listDivider"
+        android:text="@string/Button_app"
+        android:textAllCaps="true"
+        android:textColor="@color/colorText"
+        android:textColorHighlight="@android:color/transparent"
+        android:textColorHint="@android:color/transparent"
+        android:textColorLink="@android:color/transparent"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>
